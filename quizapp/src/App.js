@@ -4,11 +4,54 @@ import { useState } from 'react' //hooks (built in functions)
 
 function App() {
   const question =[
-    {title:'Pakistan First Prime Minister?',option :[{ answerText: 'Nawaz Sharif', isCorrect: false },{ answerText: 'Liaqat Ali Khan', isCorrect: true },{ answerText: 'Bilawal Bhutto', isCorrect: false }] },
-    {title:'Germany best Car Manufacturer ?',option :[{ answerText: 'Audi', isCorrect: false },{ answerText: 'BMW', isCorrect: true },{ answerText: 'Tesla', isCorrect: false }] },
-    {title:'PS5 Lanuch on ?',option :[{ answerText: '1993', isCorrect: false },{ answerText: '2019', isCorrect: true },{ answerText: '2010', isCorrect: false }] },
-    {title:'World best Airline?',option :[{ answerText: 'Turkish', isCorrect: true },{ answerText: 'Pegasus', isCorrect: false },{ answerText: 'Emirates', isCorrect: false }] },
-    {title:'Sweden Best University ?',option :[{ answerText: 'Stockholm University', isCorrect: true },{ answerText: 'Lulea University of Technology', isCorrect: false },{ answerText: 'Uppsala University', isCorrect: false }] },
+    {
+      title:'Ahmed birthday on ?',
+      option :[
+        { answerText: '26 October', isCorrect: true },
+        { answerText: '02 September', isCorrect: false },
+        { answerText: '01 January', isCorrect: false }
+      ] 
+    },
+    {
+      title:'Arham First School Name  ?',
+      option :[
+        { answerText: 'St Patrick High School', isCorrect: false },
+        { answerText: 'Marium Child Development Centre', isCorrect: true },
+        { answerText: 'St Pauls English High School', isCorrect: false }
+      ] 
+    },
+    {
+      title:'Ahmed favourite Food  ?',
+      option :[
+        { answerText: 'Biryani', isCorrect: false },
+        { answerText: 'Alu Chawal', isCorrect: true },
+        { answerText: 'Anda Fry', isCorrect: false }
+      ] 
+    },
+    {
+      title:'Arham favourite Food  ?',
+      option :[
+        { answerText: 'Biryani', isCorrect: true },
+        { answerText: 'Alu Chawal', isCorrect: false },
+        { answerText: 'Anda Fry', isCorrect: false }
+      ] 
+    },
+    {
+      title:'Aisha favourite Hobby?',
+      option :[
+        { answerText: 'Tailor kay pass jana', isCorrect: false },
+        { answerText: 'Kapray banana', isCorrect: true },
+        { answerText: 'Sona', isCorrect: false }
+      ] 
+    },
+    {
+      title:'Araham Favourite Teacher?',
+      option :[
+        { answerText: 'Miss Bassi', isCorrect: false },
+        { answerText: 'Miss Meena', isCorrect: true },
+        { answerText: 'Miss Elisha', isCorrect: false }
+      ] 
+    },
 
 ]
 
